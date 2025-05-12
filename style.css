@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #242424;
+    background-size: cover;
+}
+
+.social_icone{
+    background-color: #3a3737;
+    text-align: right;
+}
+.social_icone ul li{
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+.social_icone ul li a{
+    background-color: #ebebeb;
+    color: #242424;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social_icone ul li a:hover{
+    background: #a8741a;
+}
+
+.logo{
+    float: left;
+    margin-left: 100px;
+}
+
+/* ***** menu bar****** */
+
+.menu-bar{
+  background: #3a3737;
+  text-align: center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+}
+.menu-bar ul li{
+  width: 90px;
+  margin: 15px;
+  padding: 8px;
+}
+.menu-bar ul li a{
+  text-decoration: none;
+  color:white;
+}
+.active, .menu-bar ul li:hover{
+    background: #a8741a;
+    border-radius: 8px;
+}
+.menu-bar ul li a i {
+  margin-right: 5px;
+}
+/* *** image***** */
+body,html{
+  height: 100%;
+
+}
+.bg {
+  background-image: url("images/slider/3.jpg");
+  height: 75%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ******images***** */
+.caption {
+  font-size: 20px;
+  color: #cccccc;
+  border-style: double;
+  border-radius: 25px;
+  border-color: #a8741a;
+  margin: 15px;
+  padding: 30px;
+  text-align:justify ;  
+}
+a {
+  text-decoration: none; 
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.content{
+  background-color: #a8741a;
+  position: absolute;
+  left:800px;
+  float: left;
+  transition:all 1s ease-out;
+  opacity: 0.80;
+  height: 300px;
+  width: 100%;
+  bottom: 0px;
+}
+.img-box:hover .content{
+  left:0;
+}
+.content button{
+  color: white;
+  font-family: 'Times New Roman',Times,serif;
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* ******Special Jewellery******** */
+.bt{
+  border: none; 
+  outline: 0; 
+  padding: 12px; 
+  color: white;
+  background-color: #000; 
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+.col-3 button:hover {
+ opacity: 0.7;
+}  
+
+
+/* ****** footer start****** */
+.footer {  
+  padding: 50px 0;  
+  background: #a12a36;  
+}  
+.footer h5 {  
+  padding-left: 10px;  
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;  
+  margin-bottom: 20px;   
+}  
+.footer a {  
+  color: #ffffff;  
+} 
+
+.footer ul.social li {  
+  padding: 50px 0;  
+}   
+
+.footer ul.quick-links li:hover {  
+  padding: 3px ;  
+  margin-left:5px; 
+  font-weight:700;  
+}
